@@ -1,0 +1,72 @@
+.card {
+    width: 32%;
+    margin-left: 1%;
+}
+.rallign{
+    text-align: right;
+ }
+ .form{
+    width: 50%;
+ }
+ .nomarker
+ {
+    list-style: none;
+ }
+ .center{
+    align-items: center;
+ }
+ .btn {
+    --bs-btn-border-color: #b039fb;
+ }
+ .btn-primary{
+    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
+    background-size: 200% auto;
+    transition: 0.5s;
+ }
+ .btn-primary:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+ } 
+ .btn-success{
+    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
+    background-size: 200% auto;
+    transition: 0.5s;
+ }
+ .btn-success:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+ }
+
+ .btn-outline-primary{
+    --bs-btn-color:#b039fb;
+ }
+ .nav-link{
+    background: -webkit-linear-gradient(#DA22FF, #8700fd);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+ }
+ .btn-outline-primary{
+  --bs-btn-focus-shadow-rgb: 13, 150, 0;
+  --bs-btn-hover-border-color: #b500fd;
+  --bs-btn-hover-bg: #b500fd;
+  --bs-btn-active-bg: #c841fd;
+ }
+ 
+
+
+
+
+ .btn-grad {
+    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+                
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+
